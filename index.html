@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+     <meta charset="UTF-8">
+     <title>Home</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <div class="overlay">
+     	<div class="container">
+               <img src="https://i.imgur.com/0YmSvfb.png" width="100%">
+     		<form class="form" method="GET" action="https://google.com/search" autocomplete="off">
+     			<a href="https://www.google.com"><img src="https://i.imgur.com/8VSzm5R.png" alt="Google"></a>
+     			<input class="query" type="text" name="q" placeholder="Suche im Internet..." autofocus>
+     		</form>
+     		<div class="bubbles">
+                    <div class="bubble" data-nb>
+     				<a class="bubble__image" data-handle style="display:none;"></a>
+     				<div class="bubble__label"></div>
+     			</div>
+     			<div class="bubble" data-nb>
+     				<a class="bubble__image fritzbox" href="http://192.168.178.1" data-handle></a>
+     				<div class="bubble__label">Fritz!Box</div>
+     			</div>
+     			<div class="bubble" data-nb>
+     				<a class="bubble__image nighthawk" href="http://192.168.178.2" data-handle></a>
+     				<div class="bubble__label">Netgear Nighthawk</div>
+     			</div>
+                    <div class="bubble" data-nb>
+     				<a class="bubble__image pihole" href="http://192.168.178.4/admin/" data-handle></a>
+     				<div class="bubble__label">Pihole</div>
+     			</div>
+     		</div>
+     	</div>
+     </div>
+     <script  src="./script.js"></script>
+</body>
+</html>
